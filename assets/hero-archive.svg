@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#061120"/>
+    <stop offset="0.45" stop-color="#0a1c31"/>
+    <stop offset="0.72" stop-color="#101726"/>
+    <stop offset="1" stop-color="#07090d"/>
+  </linearGradient>
+  <radialGradient id="moonGlow" cx="0.18" cy="0.18" r="0.20">
+    <stop offset="0" stop-color="#f7efc0" stop-opacity="0.9"/>
+    <stop offset="0.55" stop-color="#d8caa0" stop-opacity="0.25"/>
+    <stop offset="1" stop-color="#d8caa0" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8ab2c8" stop-opacity="0"/>
+    <stop offset="1" stop-color="#8ab2c8" stop-opacity="0.10"/>
+  </linearGradient>
+  <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0a2132"/>
+    <stop offset="1" stop-color="#04070b"/>
+  </linearGradient>
+  <linearGradient id="castleMain" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#17263a"/>
+    <stop offset="1" stop-color="#0a111a"/>
+  </linearGradient>
+  <linearGradient id="castleSide" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#22334b"/>
+    <stop offset="1" stop-color="#0b121b"/>
+  </linearGradient>
+  <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="4"/>
+  </filter>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<rect width="1600" height="900" fill="url(#moonGlow)"/>
+<circle cx="250" cy="165" r="54" fill="#f5edbf"/>
+<circle cx="250" cy="165" r="95" fill="#f5edbf" opacity="0.16" filter="url(#softGlow)"/>
+
+<!-- stars -->
+<g fill="#f3d896" opacity="0.95">
+  <circle cx="80" cy="90" r="1.8"/><circle cx="120" cy="165" r="1.2"/><circle cx="180" cy="92" r="1.6"/>
+  <circle cx="310" cy="80" r="1.4"/><circle cx="360" cy="140" r="2.0"/><circle cx="430" cy="100" r="1.5"/>
+  <circle cx="510" cy="76" r="1.7"/><circle cx="580" cy="126" r="1.3"/><circle cx="648" cy="86" r="1.4"/>
+  <circle cx="760" cy="120" r="1.8"/><circle cx="810" cy="72" r="1.5"/><circle cx="880" cy="150" r="1.3"/>
+  <circle cx="960" cy="94" r="1.9"/><circle cx="1050" cy="68" r="1.2"/><circle cx="1130" cy="122" r="1.5"/>
+  <circle cx="1210" cy="86" r="1.7"/><circle cx="1300" cy="146" r="1.2"/><circle cx="1390" cy="72" r="1.9"/>
+  <circle cx="1490" cy="116" r="1.3"/>
+</g>
+<g stroke="#f3d896" stroke-width="1.2" opacity="0.7">
+  <path d="M445 130 l0 8 M441 134 l8 0"/>
+  <path d="M706 155 l0 7 M702.5 158.5 l7 0"/>
+  <path d="M1240 110 l0 8 M1236 114 l8 0"/>
+</g>
+
+<!-- distant hills -->
+<path d="M0 540C150 520 250 490 400 500C580 512 680 460 860 474C1030 486 1200 540 1385 520C1470 510 1540 484 1600 476V900H0Z" fill="#0a1220"/>
+<path d="M0 575C150 564 250 536 395 545C570 555 730 510 875 525C1060 543 1188 585 1366 570C1452 563 1530 545 1600 528V900H0Z" fill="#0c1623"/>
+
+<!-- castle / magical school silhouette -->
+<g transform="translate(845,275)">
+  <!-- rear towers -->
+  <path d="M-270 250V160h35v-40h26v40h26v90h20V138h34v-52h28v52h28v112h18V110h34v-38h25v38h25v140z" fill="#0a121a"/>
+  <!-- main body -->
+  <path d="M-330 290V190h76v-56h52v56h48V86h65V26h22l18-24 18 24h22v84h52v-46h42v46h46v76h30v104z" fill="url(#castleMain)"/>
+  <!-- left wing -->
+  <path d="M-428 290V220h52v-78h18l16-20 16 20h18v78h56v70z" fill="url(#castleSide)"/>
+  <!-- right wing -->
+  <path d="M170 290V198h58v-94h18l18-24 18 24h18v94h64v92z" fill="url(#castleSide)"/>
+  <!-- central tower -->
+  <path d="M-56 190V44h26V10h18V44h26v146z" fill="#122133"/>
+  <polygon points="-56,44 -12,-16 32,44" fill="#0a1117"/>
+  <!-- side spires -->
+  <polygon points="-241,134 -210,86 -179,134" fill="#0a1117"/>
+  <polygon points="228,104 264,52 300,104" fill="#0a1117"/>
+  <!-- roofs -->
+  <polygon points="-428,220 -322,160 -218,220" fill="#101822"/>
+  <polygon points="-330,190 -203,112 -80,190" fill="#101923"/>
+  <polygon points="24,110 112,58 204,110" fill="#101923"/>
+  <polygon points="170,198 264,136 364,198" fill="#101822"/>
+  <!-- lit windows -->
+  <g fill="#ffd98a">
+    <rect x="-394" y="239" width="8" height="14"/><rect x="-367" y="239" width="8" height="14"/>
+    <rect x="-342" y="207" width="8" height="14"/><rect x="-316" y="207" width="8" height="14"/>
+    <rect x="-287" y="207" width="8" height="14"/><rect x="-260" y="207" width="8" height="14"/>
+    <rect x="-182" y="178" width="8" height="15"/><rect x="-154" y="178" width="8" height="15"/>
+    <rect x="-125" y="178" width="8" height="15"/><rect x="-96" y="178" width="8" height="15"/>
+    <rect x="-37" y="141" width="8" height="16"/><rect x="-9" y="141" width="8" height="16"/>
+    <rect x="20" y="141" width="8" height="16"/>
+    <rect x="63" y="147" width="8" height="15"/><rect x="88" y="147" width="8" height="15"/>
+    <rect x="118" y="147" width="8" height="15"/><rect x="143" y="147" width="8" height="15"/>
+    <rect x="194" y="225" width="8" height="14"/><rect x="224" y="225" width="8" height="14"/>
+    <rect x="255" y="225" width="8" height="14"/><rect x="286" y="225" width="8" height="14"/>
+    <rect x="316" y="225" width="8" height="14"/>
+  </g>
+  <!-- window glow -->
+  <g fill="#ffd98a" opacity="0.25" filter="url(#softGlow)">
+    <rect x="-394" y="239" width="8" height="14"/><rect x="-367" y="239" width="8" height="14"/>
+    <rect x="-182" y="178" width="8" height="15"/><rect x="-154" y="178" width="8" height="15"/>
+    <rect x="-37" y="141" width="8" height="16"/><rect x="-9" y="141" width="8" height="16"/><rect x="20" y="141" width="8" height="16"/>
+    <rect x="194" y="225" width="8" height="14"/><rect x="224" y="225" width="8" height="14"/>
+  </g>
+</g>
+
+<!-- soft mist -->
+<ellipse cx="980" cy="575" rx="380" ry="54" fill="url(#mist)" opacity="0.9"/>
+<ellipse cx="980" cy="618" rx="500" ry="66" fill="url(#mist)" opacity="0.6"/>
+
+<!-- lake -->
+<path d="M0 625C184 602 300 636 460 630C650 623 767 592 930 603C1075 613 1235 666 1420 652C1506 645 1558 633 1600 628V900H0Z" fill="url(#lake)"/>
+<g opacity="0.25">
+  <path d="M0 670C180 652 314 688 456 682C645 675 793 636 938 648C1110 662 1240 705 1416 693C1509 686 1560 677 1600 672" stroke="#95b9ce" stroke-width="2.5" fill="none"/>
+  <path d="M0 714C180 700 320 728 460 722C648 714 797 681 940 693C1113 706 1243 749 1418 740C1507 735 1560 724 1600 721" stroke="#85a7ba" stroke-width="2" fill="none"/>
+</g>
+
+<!-- reflected lights -->
+<g fill="#dcb364" opacity="0.40">
+  <rect x="762" y="610" width="7" height="58"/><rect x="790" y="606" width="7" height="74"/>
+  <rect x="885" y="594" width="8" height="86"/><rect x="914" y="598" width="7" height="73"/>
+  <rect x="1005" y="606" width="7" height="64"/><rect x="1202" y="626" width="7" height="55"/>
+</g>
+</svg>
