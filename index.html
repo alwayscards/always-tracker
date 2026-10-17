@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Independent fan-made tracker for Harry Potter ALWAYS Trading Cards.">
+  <title>ALWAYS Tracker · Trading Cards</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="ALWAYS Tracker home">
+      <span class="brand-main">
+        <img class="brand-always" src="assets/always-wordmark.png" alt="ALWAYS">
+        <span class="tracker-word">Tracker</span>
+      </span>
+      <span class="brand-sub">Trading Cards</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="tracker.html" data-nav="tracker">Tracker</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero-shell">
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-panel">
+          <div class="hero-logo-line" aria-label="ALWAYS Tracker">
+            <img class="hero-always" src="assets/always-wordmark.png" alt="ALWAYS">
+            <span class="hero-tracker">Tracker</span>
+          </div>
+          <p class="subtitle">Trading Cards</p>
+          <p class="hero-copy">A fan-made tracker for Black Quartz 1/1 and Gold Quartz /10 parallels from the Harry Potter ALWAYS Trading Cards collection.</p>
+          <div class="hero-actions">
+            <a class="button" href="tracker.html">View Tracker →</a>
+          </div>
+        </div>
+
+        <div class="stat-grid">
+          <article class="stat-card black">
+            <div class="icon-glitter">
+              <img src="assets/black-quartz.png" alt="">
+              <span class="spark s1">✦</span><span class="spark s2">✦</span>
+            </div>
+            <div>
+              <div class="stat-label black">Black Quartz 1/1</div>
+              <div class="stat-number"><span id="blackReported">0</span> / <span id="blackTotal">100</span></div>
+              <div class="stat-meta">reported</div>
+              <div class="progress"><span id="blackProgress"></span></div>
+            </div>
+          </article>
+
+          <article class="stat-card gold">
+            <div class="icon-glitter">
+              <img src="assets/gold-quartz.png" alt="">
+              <span class="spark s1">✦</span><span class="spark s2">✦</span>
+            </div>
+            <div>
+              <div class="stat-label gold">Gold Quartz /10</div>
+              <div class="stat-number"><span id="goldReported">0</span> / <span id="goldTotal">1000</span></div>
+              <div class="stat-meta">reported</div>
+              <div class="progress"><span id="goldProgress"></span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="home-features">
+          <a class="feature" href="tracker.html">
+            <h3>Explore the Tracker</h3>
+            <p>Search, filter, and browse all tracked Hogwarts cards and their current reported status.</p>
+          </a>
+          <a class="feature" href="tracker.html">
+            <h3>Track Every Serial</h3>
+            <p>Follow every Gold Quartz serial individually from 1/10 through 10/10, alongside Black Quartz discoveries.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div>ALWAYS Tracker · Independent unofficial fan-made project.</div>
+      <div class="disclaimer-strip">This is an unofficial non-commercial collector project. It is not affiliated with, endorsed by, sponsored by, or associated with Panini, Warner Bros. Entertainment, or any other rights holder.</div>
+    </div>
+    <div class="footer-links">
+      <a href="about.html">About &amp; Legal</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="cards-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

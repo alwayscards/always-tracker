@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Track Black Quartz 1/1 and Gold Quartz /10 Harry Potter ALWAYS Trading Cards.">
+  <title>Tracker · ALWAYS Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="tracker">
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="ALWAYS Tracker home">
+      <span class="brand-main">
+        <img class="brand-always" src="assets/always-wordmark.png" alt="ALWAYS">
+        <span class="tracker-word">Tracker</span>
+      </span>
+      <span class="brand-sub">Trading Cards</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html" data-nav="home">Home</a>
+      <a href="tracker.html" data-nav="tracker">Tracker</a>
+    </nav>
+  </div>
+</header>
+
+<main class="section">
+  <div class="wrap">
+    <section class="tracker-hero">
+      <div class="tracker-hero-inner">
+        <div class="eyebrow">100 Hogwarts Cards</div>
+        <h1>Card Tracker</h1>
+        <p>Search, filter, and track every Black Quartz 1/1 and every individual Gold Quartz serial from 1/10 to 10/10.</p>
+      </div>
+    </section>
+
+    <div class="panel-shell">
+      <div class="panel-toolbar">
+        <div class="filters">
+          <input class="search" id="searchInput" type="search" placeholder="Search cards by number or title…" autocomplete="off">
+          <select id="categoryFilter" aria-label="Category"><option value="">All categories</option></select>
+          <select id="blackFilter" aria-label="Black Quartz status">
+            <option value="">All Black Quartz 1/1</option><option value="reported">Reported</option><option value="not">Not reported</option>
+          </select>
+          <select id="goldFilter" aria-label="Gold Quartz status">
+            <option value="">All Gold Quartz /10</option><option value="none">0/10 reported</option><option value="partial">1–9/10 reported</option><option value="complete">10/10 reported</option>
+          </select>
+          <button class="small-btn" id="resetFilters" type="button">Clear Filters</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>#</th><th>Card</th><th>Category</th><th>Black Quartz 1/1</th><th>Gold Quartz /10</th><th></th></tr></thead>
+          <tbody id="trackerBody"></tbody>
+        </table>
+        <div class="empty" id="emptyState" hidden>No cards match these filters.</div>
+      </div>
+      <div class="result-strip"><span id="resultCountBottom">Showing 100 cards</span><span>Independent fan-made tracker</span></div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div>ALWAYS Tracker · Independent unofficial fan-made project.</div>
+      <div class="disclaimer-strip">This is an unofficial non-commercial collector project. It is not affiliated with, endorsed by, sponsored by, or associated with Panini, Warner Bros. Entertainment, or any other rights holder.</div>
+    </div>
+    <div class="footer-links">
+      <a href="about.html">About &amp; Legal</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="cards-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
