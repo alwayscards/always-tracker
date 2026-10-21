@@ -888,7 +888,7 @@ const CARDS = [
     "variants": {
       "blackQuartz": {
         "total": 1,
-        "reported": [1]
+        "reported": []
       },
       "goldQuartz": {
         "total": 10,
@@ -1161,7 +1161,7 @@ const CARDS = [
     "variants": {
       "blackQuartz": {
         "total": 1,
-        "reported": []
+        "reported": [1]
       },
       "goldQuartz": {
         "total": 10,
