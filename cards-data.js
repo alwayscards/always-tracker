@@ -1123,7 +1123,7 @@ const CARDS = [
       },
       "goldQuartz": {
         "total": 10,
-        "reported": [6]
+        "reported": [6,10]
       }
     },
     "images": {
