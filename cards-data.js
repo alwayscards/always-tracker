@@ -1165,7 +1165,7 @@ const CARDS = [
       },
       "goldQuartz": {
         "total": 10,
-        "reported": [2]
+        "reported": [2,9]
       }
     },
     "images": {
